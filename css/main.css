@@ -291,14 +291,14 @@ body {
   bottom: 0vmin;
   width: 1vmin;
   height: 1vmin;
-  background-color: rgb(0, 89, 255);
+  background-color: #a928ff;
   border-radius: 50%;
   filter: blur(0.2vmin);
   -webkit-animation: light-ans 4s linear infinite backwards;
           animation: light-ans 4s linear infinite backwards;
 }
 .flower__light:nth-child(odd) {
-  background-color: #006dfc;
+  background-color: #a928ff;
 }
 .flower__light--1 {
   left: -2vmin;
