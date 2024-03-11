@@ -59,7 +59,7 @@ body {
       transparent 19px,
       transparent 22px
     ),
-    linear-gradient(90deg, rgb(0, 162, 255), rgb(240, 240, 240));
+    linear-gradient(90deg, #a928ff, rgb(240, 240, 240));
 }
 
 .flowers {
@@ -720,13 +720,13 @@ body {
       width: 30vmin;
       height: 50vmin;
       border-top-left-radius: 100%;
-      border-left: 2vmin solid #079097;
+      border-left: 2vmin solid #a928ff;
       background-image: linear-gradient(
         to bottom,
         transparent,
         var(--dark-color) 60%
       );
-      -webkit-mask-image: linear-gradient(to top, transparent 30%, #079097 60%);
+      -webkit-mask-image: linear-gradient(to top, transparent 30%, #a928ff 60%);
     }
 
     &--1 {
@@ -948,7 +948,7 @@ body {
       height: 50vmin;
       border-top-left-radius: 100%;
       border-left: 2vmin solid #079097;
-      -webkit-mask-image: linear-gradient(to top, transparent 25%, #079097 50%);
+      -webkit-mask-image: linear-gradient(to top, transparent 25%, #a928ff 50%);
       position: relative;
       z-index: 1;
     }
